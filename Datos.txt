@@ -1,0 +1,11 @@
+Viaje  	Tuberculosis  	CancerPulmon	TuberculosisCancer	RayosX	Tabaquismo	Bronquitis	DificultadRespirar
+Si	Si	Si	Si	Anormal	Si	Si	Si
+No	No	Si	Si	Normal	No	Si	Si
+No	No	Si	Si	Anormal	Si	No	No
+No	No	Si	Si	Normal	No	No	No
+No	Si	Si	Si	Anormal	Si	No	Si
+No	Si	No	Si	Normal	No	No	Si
+No	No	No	No	Normal	Si	No	No
+No	No	No	No	Normal	No	Si	No
+No	No	No	No	Normal	Si	Si	No
+No	No	No	No	Normal	No	No	No
