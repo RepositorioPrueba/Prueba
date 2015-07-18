@@ -9,3 +9,13 @@ No	No	No	No	Normal	Si	No	No
 No	No	No	No	Normal	No	Si	No
 No	No	No	No	Normal	Si	Si	No
 No	No	No	No	Normal	No	No	No
+
+//modificacion
+var =0
+if (var==0)
+{
+  print ("es cero");
+}
+else{
+  print ("es diferente de cero");
+}
