@@ -1,16 +1,4 @@
-Viaje  	Tuberculosis  	CancerPulmon	TuberculosisCancer	RayosX	Tabaquismo	Bronquitis	DificultadRespirar
-Si	Si	Si	Si	Anormal	Si	Si	Si
-No	No	Si	Si	Normal	No	Si	Si
-No	No	Si	Si	Anormal	Si	No	No
-No	No	Si	Si	Normal	No	No	No
-No	Si	Si	Si	Anormal	Si	No	Si
-No	Si	No	Si	Normal	No	No	Si
-No	No	No	No	Normal	Si	No	No
-No	No	No	No	Normal	No	Si	No
-No	No	No	No	Normal	Si	Si	No
-No	No	No	No	Normal	No	No	No
-
-//modificacion
+<?php
 var =0
 if (var==0)
 {
@@ -19,3 +7,19 @@ if (var==0)
 else{
   print ("es diferente de cero");
 }
+
+if($email1==''){ //validamos los que el email no esté vacio
+     $algunerror = TRUE; //si encontramos un error,mostramos un mensaje
+     echo "<p class=\"erroneo\">No has introducido tu eMail</p>\n";
+ } elseif($email1!=$email2){ //si tiene algo, que concida con la repetición
+     $algunerror = TRUE;
+     echo "<p class=\"erroneo\">Los eMails introducidos no coinciden.</p>\n";
+ }
+ if($nombre==''){ //comprobamos que el nombre no haya quedado vacío
+     $algunerror = TRUE;
+     echo "<p class=\"erroneo\">No has introducido tu nombre.</p>\n";
+ }
+ if($consulta==''){ //comprobamos que el contenido de la pregunta no esté vacío
+     $algunerror = TRUE;
+     
+     ?>
