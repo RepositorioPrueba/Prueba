@@ -22,4 +22,4 @@ if($email1==''){ //validamos los que el email no esté vacio
  if($consulta==''){ //comprobamos que el contenido de la pregunta no esté vacío
      $algunerror = TRUE;
      
-     ?>
+    ?>
